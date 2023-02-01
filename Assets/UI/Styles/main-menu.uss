@@ -1,0 +1,52 @@
+.button-main-menu {
+    height: 45px;
+    width: 188px;
+    background-color: rgb(52, 158, 217);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.button-main-menu:hover {
+    height: 45px;
+    width: 188px;
+    background-color: rgb(32, 135, 192);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    font-size: 18px;
+    -unity-font-style: bold;
+    color: rgba(255, 255, 255, 255);
+    letter-spacing: -3px;
+    -unity-text-align: middle-center;
+}
+
+.button-main-menu:active {
+    height: 45px;
+    width: 188px;
+    background-color: rgb(6, 110, 168);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/main-menu.uss?fileID=7433441132597879392&amp;guid=007bc2ff450ac3149921ddf955972787&amp;type=3#main-menu" />
+    <ui:VisualElement name="ContainerGlobal" style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgb(219, 235, 243); height: auto; width: auto;">
+        <ui:VisualElement name="ContainerCentral" style="height: 318px; width: 283px; background-color: rgb(255, 255, 255); border-top-left-radius: 16px; border-bottom-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; align-items: center; justify-content: center;">
+            <ui:Label text="Main Menu" display-tooltip-when-elided="true" name="LabelMainMenu" style="position: absolute; top: 20px; font-size: 20px;" />
+            <ui:Button text="Start Game" display-tooltip-when-elided="true" name="ButtonStartGame" class="button-main-menu" />
+            <ui:Button text="Quit Game" display-tooltip-when-elided="true" name="ButtonShowMessage" class="button-main-menu" />
+            <ui:Label text="Blue Pen" display-tooltip-when-elided="true" name="LabelMessage" style="position: absolute; bottom: 25px; display: none; visibility: visible;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
