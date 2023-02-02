@@ -487,6 +487,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventReachedGround: {fileID: 11400000, guid: d29930f8d68e3d44090b2d01323e066b, type: 2}
+  rb: {fileID: 1293825272}
+  joystickInputSmoothing: 0.1
+  playerSpeed: 2
 --- !u!1 &1750338980
 GameObject:
   m_ObjectHideFlags: 0
